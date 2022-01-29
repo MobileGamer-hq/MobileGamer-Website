@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(2, 31, 73);
+}
+
+header{
+    padding: 10px;
+
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+
+    background: rgb(2, 31, 73);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Allerta Stencil;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+
+header a:hover{
+    color: rgb(84, 97, 122);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px;
+    font-family: Allerta Stencil;
+    font-size: 30px;  
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.MobileGamer{
+    color: white;
+    background-color: rgb(1, 25, 58);
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
+.MobileGamer img{
+    padding: 10px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.Languages{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(1, 25, 58);
+    padding-bottom: 100px;
+}
+
+.Languages li{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Projects{
+    background-color: rgb(1, 25, 58);
+    padding-bottom: 100px;
+}
+
+.Projects a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Projects a:hover{
+    color: rgb(0, 140, 255);
+}
